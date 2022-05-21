@@ -9,6 +9,7 @@ import {setDestination, setOrigin} from '../slices/navSlice';
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
+  console.log('ini google', GOOGLE_MAPS_APIKEY);
 
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
